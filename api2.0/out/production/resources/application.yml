@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: local
+  datasource:
+    url: jdbc:mysql://localhost:3306/hikedu
+    username: root
+    password: hikedu
+    driver-class-name: com.mysql.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+
+
+
+
